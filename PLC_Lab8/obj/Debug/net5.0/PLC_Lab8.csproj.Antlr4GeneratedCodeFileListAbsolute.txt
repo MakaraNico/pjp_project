@@ -1,0 +1,6 @@
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprLexer.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprParser.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprListener.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprBaseListener.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprVisitor.cs
+C:\Users\render\Desktop\skola\skola_sesty_semestr\pjp\PLC_Lab8\PLC_Lab8\obj\Debug\net5.0\PLC_Lab8_exprBaseVisitor.cs
