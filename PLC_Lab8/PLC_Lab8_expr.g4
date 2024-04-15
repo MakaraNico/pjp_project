@@ -12,6 +12,7 @@ statement
     | IF expr statement                              # ifExpr
     | ELSE statement                                 # elseExpr
     | WHILE expr statement                           # whileExpr
+    | FOR '(' expr ';' expr ';' expr ')' statement   # forExpr
     | ';'                                            # empty
     ;
 
@@ -20,10 +21,10 @@ expr: expr op=(MUL|DIV|MOD) expr            # mulDivMod
     | expr op=(GT|LT|EQUAL|NOTEQUAL) expr   # gtLtEquNotEqu
     | expr op=(AND|OR) expr                 # andOr
     | INT                                   # int
-    | IDENTIFIER                            # id
+    | BOOL                                  # bool
     | FLOAT                                 # float
     | STRING                                # string
-    | BOOL                                  # bool
+    | IDENTIFIER                            # id
     | BANG expr                             # bang
     | SUB expr                              # unarySub
     | '(' expr ')'                          # parens
@@ -40,6 +41,8 @@ primitiveType
 
 WRITE : 'write' ;
 READ : 'read' ;
+
+FOR : 'for' ;
 
 IF : 'if' ;
 ELSE : 'else' ;
@@ -65,11 +68,11 @@ AND : '&&';
 OR : '||';
 BANG : '!';
 
-IDENTIFIER : [a-zA-Z]+ ; 
 FLOAT : [0-9]+'.'[0-9]+ ;
 INT : [0-9]+ ;
 BOOL : 'true' | 'false' ;
 STRING : '"' ~["]* '"';
+IDENTIFIER : [a-zA-Z]+ ; 
 
 WS : [ \t\r\n]+ -> skip ; // toss out whitespace
 LINE_COMMENT: '//' ~[\r\n]* -> channel(HIDDEN) ;

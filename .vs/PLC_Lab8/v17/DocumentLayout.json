@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\",
+  "WorkspaceRootPath": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\render\\desktop\\skola\\skola_sesty_semestr\\pjp\\plc_lab8\\plc_lab8\\evalvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\renderwaves\\desktop\\skola\\skola6\\pjp\\plc_lab8\\plc_lab8\\evalvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\evalvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\render\\desktop\\skola\\skola_sesty_semestr\\pjp\\plc_lab8\\plc_lab8\\plc_lab8_expr.g4||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\renderwaves\\desktop\\skola\\skola6\\pjp\\plc_lab8\\plc_lab8\\plc_lab8_expr.g4||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\plc_lab8_expr.g4||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\render\\desktop\\skola\\skola_sesty_semestr\\pjp\\plc_lab8\\plc_lab8\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\renderwaves\\desktop\\skola\\skola6\\pjp\\plc_lab8\\plc_lab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\renderwaves\\desktop\\skola\\skola6\\pjp\\plc_lab8\\plc_lab8\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\render\\desktop\\skola\\skola_sesty_semestr\\pjp\\plc_lab8\\plc_lab8\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\renderwaves\\desktop\\skola\\skola6\\pjp\\plc_lab8\\plc_lab8\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|c:\\users\\render\\desktop\\skola\\skola_sesty_semestr\\pjp\\plc_lab8\\plc_lab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FD5085B-1176-4219-95B0-AB7F850219DC}|PLC_Lab8\\PLC_Lab8.csproj|solutionrelative:plc_lab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,25 +34,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Type.cs",
-              "DocumentMoniker": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Type.cs",
+              "DocumentMoniker": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Type.cs",
               "RelativeDocumentMoniker": "PLC_Lab8\\Type.cs",
-              "ToolTip": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Type.cs",
+              "ToolTip": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Type.cs",
               "RelativeToolTip": "PLC_Lab8\\Type.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T09:57:46.616Z"
+              "WhenOpened": "2024-04-08T09:57:46.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Errors.cs",
-              "DocumentMoniker": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Errors.cs",
+              "DocumentMoniker": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Errors.cs",
               "RelativeDocumentMoniker": "PLC_Lab8\\Errors.cs",
-              "ToolTip": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Errors.cs",
+              "ToolTip": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Errors.cs",
               "RelativeToolTip": "PLC_Lab8\\Errors.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T09:20:04.537Z"
             },
@@ -60,11 +61,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EvalVisitor.cs",
-              "DocumentMoniker": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\EvalVisitor.cs",
+              "DocumentMoniker": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\EvalVisitor.cs",
               "RelativeDocumentMoniker": "PLC_Lab8\\EvalVisitor.cs",
-              "ToolTip": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\EvalVisitor.cs",
+              "ToolTip": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\EvalVisitor.cs",
               "RelativeToolTip": "PLC_Lab8\\EvalVisitor.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHYAAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T04:53:22.756Z",
               "EditorCaption": ""
@@ -73,25 +74,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PLC_Lab8_expr.g4",
-              "DocumentMoniker": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\PLC_Lab8_expr.g4",
+              "DocumentMoniker": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\PLC_Lab8_expr.g4",
               "RelativeDocumentMoniker": "PLC_Lab8\\PLC_Lab8_expr.g4",
-              "ToolTip": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\PLC_Lab8_expr.g4",
+              "ToolTip": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\PLC_Lab8_expr.g4",
               "RelativeToolTip": "PLC_Lab8\\PLC_Lab8_expr.g4",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAMAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-07T12:20:32.752Z"
+              "WhenOpened": "2024-04-07T12:20:32.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Program.cs",
               "RelativeDocumentMoniker": "PLC_Lab8\\Program.cs",
-              "ToolTip": "C:\\Users\\render\\Desktop\\skola\\skola_sesty_semestr\\pjp\\PLC_Lab8\\PLC_Lab8\\Program.cs",
+              "ToolTip": "C:\\Users\\Renderwaves\\Desktop\\skola\\skola6\\pjp\\PLC_Lab8\\PLC_Lab8\\Program.cs",
               "RelativeToolTip": "PLC_Lab8\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T12:20:27.114Z"
+              "WhenOpened": "2024-04-07T12:20:27.114Z",
+              "EditorCaption": ""
             }
           ]
         }

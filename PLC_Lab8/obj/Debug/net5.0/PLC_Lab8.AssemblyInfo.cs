@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PLC_Lab8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f032324f7f8e6f20ad3c8c31b494e5b4b6476fc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PLC_Lab8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PLC_Lab8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

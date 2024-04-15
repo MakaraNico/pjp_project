@@ -122,8 +122,6 @@ namespace PLC_Lab8
                 if (context.op.Type == PLC_Lab8_exprParser.ADD) return (Type.Int, (int)left.Value + (int)right.Value);
                 else return (Type.Int, (int)left.Value - (int)right.Value);
             }
-
-            // imlement dot
         }
 
         public override (Type Type, object Value) VisitMulDivMod([NotNull] PLC_Lab8_exprParser.MulDivModContext context)
@@ -152,16 +150,55 @@ namespace PLC_Lab8
                 if (context.op.Type == PLC_Lab8_exprParser.MUL) return (Type.Int, (int)left.Value * (int)right.Value);
                 else return (Type.Int, (int)left.Value / (int)right.Value);
             }
+        }
 
-            // implement mod
+        public override (Type Type, object Value) VisitForExpr([NotNull] PLC_Lab8_exprParser.ForExprContext context)
+        {
+            var cond = Visit(context.expr()[1]);
+            var tmp = Visit(context.statement());
+            if (tmp.Type == Type.Error) return (Type.Error, 0);
+            if (cond.Type != Type.Bool)
+            {
+                Errors.ReportError(context.expr()[0].start, $"Expr is not bool.");
+                return (Type.Error, 0);
+            }
+            return (Type.Error, 0);
         }
 
         public override (Type Type, object Value) VisitWriteExpr([NotNull] PLC_Lab8_exprParser.WriteExprContext context)
         {
             foreach (var expression in context.expr())
             {
-                Visit(expression);
+                var res = Visit(expression);
+                if (res.Type == Type.Error)
+                {
+                    Errors.PrintAndClearErrors();
+                }
             }
+            return (Type.Error, 0);
+        }
+
+        public override (Type Type, object Value) VisitGtLtEquNotEqu([NotNull] PLC_Lab8_exprParser.GtLtEquNotEquContext context)
+        {
+            var left = Visit(context.expr()[0]);
+            var right = Visit(context.expr()[1]);
+            if (left.Type == Type.Error || right.Type == Type.Error) return (Type.Error, 0);
+
+            if (left.Type == Type.Int && right.Type == Type.Int)
+            {
+                if (context.op.Type == PLC_Lab8_exprParser.LT)
+                {
+                    if ((int)left.Value < (int)right.Value)
+                    {
+                        return (Type.Bool, true);
+                    } else
+                    {
+                        return(Type.Bool, false);
+                    }
+                }
+            }
+
+
             return (Type.Error, 0);
         }
 

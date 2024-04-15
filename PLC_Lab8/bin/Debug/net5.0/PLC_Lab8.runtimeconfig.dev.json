@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\render\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\render\\.nuget\\packages"
+      "C:\\Users\\Renderwaves\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Renderwaves\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
