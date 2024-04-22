@@ -8,9 +8,8 @@ statement
     | primitiveType IDENTIFIER (',' IDENTIFIER)* ';' # declaration
     | expr ';'                                       # printExpr
     | WRITE expr (',' expr)* ';'                     # writeExpr
-    | READ expr (',' expr)* ';'                      # readExpr
-    | IF expr statement                              # ifExpr
-    | ELSE statement                                 # elseExpr
+    | READ IDENTIFIER (',' IDENTIFIER)* ';'          # readExpr
+    | IF expr statement (ELSE statement)?            # ifExpr
     | WHILE expr statement                           # whileExpr
     | FOR '(' expr ';' expr ';' expr ')' statement   # forExpr
     | ';'                                            # empty
@@ -71,7 +70,7 @@ BANG : '!';
 FLOAT : [0-9]+'.'[0-9]+ ;
 INT : [0-9]+ ;
 BOOL : 'true' | 'false' ;
-STRING : '"' ~["]* '"';
+STRING: '"' (~["\r\n] | '""')* '"';
 IDENTIFIER : [a-zA-Z]+ ; 
 
 WS : [ \t\r\n]+ -> skip ; // toss out whitespace

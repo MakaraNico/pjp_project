@@ -28,9 +28,32 @@ namespace PLC_Lab8
 
             if (parser.NumberOfSyntaxErrors == 0)
             {
-                Console.WriteLine(tree.ToStringTree(parser));
+                //Console.WriteLine(tree.ToStringTree(parser));
 
-                new EvalVisitor().Visit(tree);
+                //new EvalVisitor().Visit(tree);
+
+                var type_checker = new TypeChecker();
+                ParseTreeWalker walker = new ParseTreeWalker();
+                walker.Walk(type_checker, tree);
+
+                if (Errors.NumberOfErrors == 0)
+                {
+                    InstructionGenerator instruction_generator = new InstructionGenerator(type_checker.Types, type_checker.SymbolTable);
+                    var result = instruction_generator.Visit(tree);
+                    Console.WriteLine(result);
+
+                    string output = "output.txt";
+                    File.WriteAllText(output, result);
+
+                    var input_file = File.ReadAllText("output.txt");
+                    VirtualMachine vm = new VirtualMachine(input_file);
+                    vm.Run();
+
+                }
+                else
+                {
+                    Errors.PrintAndClearErrors();
+                }
             }
         }
     }

@@ -235,17 +235,6 @@ namespace PLC_Lab8
             return (Type.Error, 0);
         }
 
-        public override (Type Type, object Value) VisitElseExpr([NotNull] PLC_Lab8_exprParser.ElseExprContext context)
-        {
-            //var value = Visit(context.expr());
-            //if (value.Type != Type.Error) Console.WriteLine(value.Value);
-            //else
-            //{
-            //    Errors.PrintAndClearErrors();
-            //}
-            return (Type.Error, 0);
-        }
-
         public override (Type Type, object Value) VisitAssignment([NotNull] PLC_Lab8_exprParser.AssignmentContext context)
         {
             var right = Visit(context.expr());
